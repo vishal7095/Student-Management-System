@@ -1,4 +1,4 @@
-# Student Management System
+# StudentHub
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -10,7 +10,7 @@
 - [License](#license)
 
 ## Introduction
-The Student Management System is a desktop application designed to manage student data efficiently. It allows users to add, search, update, and delete student information, as well as export the data to a CSV file. This application is built using Python and Tkinter for the graphical user interface and MySQL for the database.
+StudentHub is a desktop application designed for efficient student data management. It allows users to manage student records easily using a graphical interface. This application is built using Python and Tkinter for the GUI, and MySQL for the database backend.
 
 ## Features
 - **Add Student**: Input student details and add them to the database.
@@ -25,10 +25,14 @@ The Student Management System is a desktop application designed to manage studen
 ### Prerequisites
 - Python 3.x
 - MySQL Server
-- Required Python libraries
+- Required Python libraries (listed in requirements.txt or equivalent)
 
 ### Steps
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/yourusername/student-management-system.git
-   cd student-management-system
+   git clone https://github.com/yourusername/studenthub.git
+   cd studenthub
+
+2. **Install Dependencies**
+   ```sh
+   pip install -r requirements.txt
