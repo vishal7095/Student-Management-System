@@ -1,1 +1,0 @@
-# Student-Managent-System
